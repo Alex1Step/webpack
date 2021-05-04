@@ -1,0 +1,23 @@
+@import "roboto.css";
+@import "~normalize.css"; /*тильда указывает на то , что его нужно подключать из папки nod_modules*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  paddinh-top: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  background-image: url("../assets/webpack-logo.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
